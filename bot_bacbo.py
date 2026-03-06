@@ -10,8 +10,8 @@ class WebScraper:
     def __init__(self):
         # EDIT!
         self.game = "Bac Bo"
-        self.token = 'TOKEN BOT'
-        self.chat_id = 'CHAT ID'
+        self.token = '8607764333:AAH7GVewspFMGo-PtgQW-UiN00MTb7TG-KA'
+        self.chat_id = '8395348673'
         self.url_API = 'http://api.mxvinvest.com:63000/bac-bo'
         self.gales = 2
         self.protection = True
@@ -246,4 +246,5 @@ class WebScraper:
                         return
 
 scraper = WebScraper()
+
 scraper.start()
